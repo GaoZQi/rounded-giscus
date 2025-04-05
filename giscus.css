@@ -12,8 +12,8 @@ main.w-full.mx-auto {
     border-start-start-radius: 1rem;
 }
 
-#__next .rounded-md {
-    border-radius: .6rem;
+button.btn.btn-primary.items-center.ml-1.rounded-md.border {
+    border-radius: .6rem !important;
 }
 
 button.rounded-t.border.border-b-0.px-4.py-2.color-text-primary.color-bg-canvas.color-border-primary {
@@ -29,6 +29,24 @@ button.rounded-t.border.border-b-0.px-4.py-2.color-text-primary.color-bg-canvas.
 .gsc-comment-box-textarea-extras {
     border-end-end-radius: .8rem;
     border-end-start-radius: .8rem;
+}
+
+.gsc-reply-box {
+    border-end-end-radius: 1rem;
+    border-end-start-radius: 1rem;
+    padding-inline-end: .5rem;
+    padding-inline-start: .5rem;
+}
+
+#__next .rounded-md {
+    border-radius: 1rem;
+}
+#__next .border {
+    border-width: 2px;
+}
+
+button.form-control.color-text-secondary.color-border-primary.w-full.cursor-text.rounded.border.px-2.py-1.text-left.focus\:border-transparent {
+    border-radius: .6rem;
 }
 
 /*! MIT License
