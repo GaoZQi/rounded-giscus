@@ -54,6 +54,10 @@ body .gsc-reply-box {
     border-width: 2px;
 }
 
+body .gsc-replies {
+    border-end-end-radius: 1rem !important;
+    border-end-start-radius: 1rem !important;
+}
 button.form-control.color-text-secondary.color-border-primary.w-full.cursor-text.rounded.border.px-2.py-1.text-left.focus\:border-transparent {
     border-radius: .6rem !important;
 }
