@@ -52,7 +52,7 @@ body .gsc-reply-box {
 }
 
 button.form-control.color-text-secondary.color-border-primary.w-full.cursor-text.rounded.border.px-2.py-1.text-left.focus\:border-transparent {
-    border-radius: .6rem;
+    border-radius: .6rem !important;
 }
 
 /*! MIT License
