@@ -11,7 +11,7 @@ body .gsc-comment-box-tabs {
     border-start-end-radius: 1rem;
     border-start-start-radius: 1rem;
 }
-
+button.btn.ml-1.rounded-md.border,
 button.btn.btn-primary.items-center.ml-1.rounded-md.border {
     border-radius: .6rem !important;
 }
