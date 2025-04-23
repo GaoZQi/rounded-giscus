@@ -10,6 +10,7 @@ body .gsc-comment-box:not(.gsc-comment-box-is-reply) {
 body .gsc-comment-box-tabs {
     border-start-end-radius: 1rem;
     border-start-start-radius: 1rem;
+    border-bottom-width: 2px;
 }
 button.btn.ml-1.rounded-md.border,
 button.btn.btn-primary.items-center.ml-1.rounded-md.border {
@@ -52,6 +53,9 @@ body .gsc-reply-box {
 }
 #__next .border {
     border-width: 2px;
+}
+#__next .mb-\[-1px\] {
+    margin-bottom: -1.5px;
 }
 
 body .gsc-replies {
